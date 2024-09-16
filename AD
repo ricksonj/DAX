@@ -1,0 +1,36 @@
+MSL_Customers_Known_PLWCAD = 
+VAR _KnownperAnon = DIVIDE ( [MSL_Customers_Known], [MSL_Customers_Anon_Filterable] )
+VAR _Star =
+    ADDCOLUMNS(
+        SUMMARIZE(
+            FILTER( 'Reach_MSL', 'Reach_MSL'[anon_index] = 0 ),
+            'Reach_MSL'[customerref],
+            'Reach_MSL'[role],
+            "statuses",
+                CONCATENATEX(
+                    VALUES( 'Reach_MSL'[cancer_status] ),
+                    'Reach_MSL'[cancer_status],
+                    "_",
+                    'Reach_MSL'[cancer_status], ASC
+                )
+        ),
+        "PrimaryCancerStatus",
+            IF(
+                CONTAINSSTRING( [statuses], "Initial Treatment" )
+                    || CONTAINSSTRING( [statuses], "Diagnosis and Staging" ),
+                "D",
+                IF(
+                    [statuses]
+                        IN {"Not Known","Not Applicable","_Not Applicable_Not Known","Not Applicable_Not Known"},
+                    "U",
+                    "O"
+                )
+            )
+    )
+VAR _Known =   COUNTROWS( FILTER( _Star, [role] = "PLWC" && [PrimaryCancerStatus] = "D" ) )
+VAR _Other =   COUNTROWS( FILTER( _Star, [role] = "PLWC" && [PrimaryCancerStatus] ="O" ) )
+VAR _Unknown = COUNTROWS( FILTER( _Star, [role] = "PLWC" && [PrimaryCancerStatus] ="U" ) )
+VAR _Extrapolated = DIVIDE( _Known, ( _Known + _Other)) * _Unknown
+VAR _AnonTotal = DIVIDE( ( _Known + _Extrapolated), _KnownperAnon)
+RETURN
+ _Known  
