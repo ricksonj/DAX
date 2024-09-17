@@ -1,8 +1,12 @@
 --------General:--------
-'_Measures Folder' - 1 folder with subfolders in it
-'zLookup Queries' - for fact tables
-'zzCalendar Query' - for calendar table
-Turn off auto date/time
+- '_Measures Folder' - 1 folder with subfolders in it
+- 'zLookup Queries' - for fact tables
+- 'zzCalendar Query' - for calendar table
+
+- Turn off auto date/time
+- Turn off refresh of fact tables if possible
+
+- Prefix pages with TT_ for tooltip pages and hide
 
 --------Measures:--------
 - Capitalized / Normalized names
