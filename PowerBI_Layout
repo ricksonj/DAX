@@ -1,0 +1,11 @@
+'_Measures Folder' - 1 folder with subfolders in it
+'zLookup Queries' - for fact tables
+'zzCalendar Query' - for calendar table
+Turn off auto date/time
+
+Measures:
+- Capitalized / Normalized names
+- variables with an underscore
+- variables with sensible short names
+- variables end with '_Result' variable then 'RETURN _Result' (makes error checking easier)
+
