@@ -9,4 +9,11 @@ Turn off auto date/time
 - variables with an underscore
 - variables with sensible short names
 - variables end with '_Result' variable then 'RETURN _Result' (makes error checking easier)
+- Add basic comments if its complex
 
+--------Calculate Columns/Tables:--------
+- Avoid if possible
+- Prefix with _CC / _CT to group and make obvious whats calculated
+- Add basic comments if its complex
+
+--------:--------
