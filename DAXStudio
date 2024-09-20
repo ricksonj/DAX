@@ -10,7 +10,7 @@ Storage Engine:
 --------Table Listing all Measures in the Report---------
 SELECT 
  [OBJECT_TYPE] AS [Object Type], 
- [TABLE]AS [Object's Table], 
+ [TABLE] AS [Object's Table], 
  [OBJECT] AS [Object], 
  [REFERENCED_TABLE] AS [Referenced Table], 
  [REFERENCED_OBJECT] AS [Referenced Object], 
@@ -33,3 +33,16 @@ EVALUATE
     { [Customers_Anon2] }
 
 -----------------------------------------------
+
+------Check Memory size of data---------
+SELECT 
+     dimension_name AS tablename,
+     attribute_name AS columnname,
+     datatype,
+     (dictionary_size/1024) AS size_kb
+FROM $system.discover_storage_table_columns
+WHERE dictionary_size > 0
+ORDER BY dictionary_size DESC
+
+----------------------------------------
+
