@@ -1,0 +1,6 @@
+------DAX Studio------
+
+Formula Engine:
+Storage Engine:
+- The formula engine is optimized for complexity. The storage engine optimizes for speed.
+- Push calculations to storage engine instead of formula engine.
