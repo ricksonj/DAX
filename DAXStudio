@@ -1,9 +1,11 @@
-------DAX Studio------
+------------------DAX Studio------------------
 
 Formula Engine:
 Storage Engine:
 - The formula engine is optimized for complexity. The storage engine optimizes for speed.
 - Push calculations to storage engine instead of formula engine.
+
+
 
 --------Table Listing all Measures in the Report---------
 SELECT 
@@ -18,4 +20,16 @@ FROM $SYSTEM.DISCOVER_CALC_DEPENDENCY
 WHERE [REFERENCED_OBJECT_TYPE]= 'MEASURE'
 ORDER BY [REFERENCED_OBJECT]
 
+-------------------------------------------------------
 
+-------Test the performance of a measure--------
+DEFINE
+----MODEL MEASURE BEGINS----
+    MEASURE _Measures2[Customers_Anon2] =
+    SUM(Sheet1[Example])
+
+----MODEL MEASURE END----
+EVALUATE
+    { [Customers_Anon2] }
+
+-----------------------------------------------
