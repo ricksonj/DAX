@@ -9,16 +9,18 @@ Storage Engine:
 
 --------Table Listing all Measures in the Report---------
 SELECT 
- [OBJECT_TYPE] AS [Object Type], 
  [TABLE] AS [Object's Table], 
- [OBJECT] AS [Object], 
+ [OBJECT] AS [Object],  
+ [OBJECT_TYPE] AS [Object Type], 
+ [EXPRESSION] AS [Object Contents],
  [REFERENCED_TABLE] AS [Referenced Table], 
  [REFERENCED_OBJECT] AS [Referenced Object], 
  [REFERENCED_OBJECT_TYPE] AS [Referenced Object Type],
  [REFERENCED_EXPRESSION] AS [Referenced Contents]
+ --,*
 FROM $SYSTEM.DISCOVER_CALC_DEPENDENCY 
-WHERE [REFERENCED_OBJECT_TYPE]= 'MEASURE'
-ORDER BY [REFERENCED_OBJECT]
+WHERE [OBJECT_TYPE]= 'MEASURE'
+ORDER BY [OBJECT]
 
 -------------------------------------------------------
 
