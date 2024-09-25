@@ -1,0 +1,4916 @@
+{
+   "name": "Macmillan Theme",
+   "icons": [],
+   "dataColors": [
+      "#00838A",
+      "#003d4d",
+      "#95c23d",
+      "#83d0f5",
+      "#007ab8",
+      "#5e4f9c",
+      "#b16944",
+      "#f0821c"
+   ],
+   "tableAccent": "#d9ccc2",
+   "good": "#008a26",
+   "neutral": "#d9b300",
+   "bad": "#dd0f0f",
+   "maximum": "#003d4d",
+   "center": "#d9b300",
+   "minimum": "#2e7dd9",
+   "foreground": "#252423",
+   "foregroundNeutralSecondary": "#605E5C",
+   "backgroundLight": "#F3F2F1",
+   "foregroundNeutralTertiary": "#B3B0AD",
+   "background": "#FFFFFF",
+   "backgroundNeutral": "#C8C6C4",
+   "textClasses": {
+      "callout": {
+         "fontFace": "Cera Pro Macmillan",
+         "color": "#252423",
+         "fontSize": 45
+      },
+      "title": {
+         "fontFace": "Cera Pro Macmillan",
+         "color": "#252423",
+         "fontSize": 12
+      },
+      "header": {
+         "fontFace": "Cera Pro Macmillan",
+         "color": "#252423",
+         "fontSize": 12
+      },
+      "label": {
+         "fontFace": "Cera Pro Macmillan",
+         "color": "#252423",
+         "fontSize": 10
+      },
+      "smallLightLabel": {
+         "color": "#605E5C",
+         "fontSize": 9
+      },
+      "largeLightLabel": {
+         "color": "#605E5C",
+         "fontSize": 12
+      },
+      "boldLabel": {
+         "fontFace": "Cera Pro Macmillan"
+      },
+      "lightLabel": {
+         "color": "#605E5C"
+      },
+      "smallLabel": {
+         "fontSize": 9
+      },
+      "largeLabel": {
+         "fontSize": 12
+      },
+      "semiboldLabel": {
+         "fontFace": "Cera Pro Macmillan"
+      },
+      "largeTitle": {
+         "fontSize": 14
+      }
+   },
+   "visualStyles": {
+      "slicer": {
+         "*": {
+            "date": [{
+               "hideDatePickerButton": true
+            }]
+         }
+      }
+      "*": {
+         "*": {
+            "background": [{
+               "color": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0
+            }],
+            "border": [{
+               "color": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               },
+               "show": false,
+               "radius": 0
+            }],
+            "visualHeader": [{
+               "background": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "foreground": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "transparency": 0,
+               "border": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               }
+            }],
+            "visualTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "valueFontColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "actionFontColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               }
+            }],
+            "outspace": [{
+               "color": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0,
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               }
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "alignment": "left",
+               "fontSize": 14,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "outspacePane": [{
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0,
+               "foregroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleSize": 12,
+               "headerSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "border": true,
+               "borderColor": {
+                  "solid": {
+                     "color": "#B3B0AD"
+                  }
+               },
+               "width": 200,
+               "checkboxAndApplyColor": {
+                  "solid": {
+                     "color": "#F2C811"
+                  }
+               },
+               "searchTextSize": 10,
+               "inputBoxColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               }
+            }],
+            "filterCard": [{
+                  "$id": "Available",
+                  "foregroundColor": {
+                     "solid": {
+                        "color": "#252423"
+                     }
+                  },
+                  "backgroundColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  },
+                  "textSize": 9,
+                  "fontFamily": "Cera Pro Macmillan",
+                  "transparency": 0,
+                  "border": true,
+                  "borderColor": {
+                     "solid": {
+                        "color": "#C8C8C8"
+                     }
+                  },
+                  "inputBoxColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  }
+               },
+               {
+                  "$id": "Applied",
+                  "foregroundColor": {
+                     "solid": {
+                        "color": "#252423"
+                     }
+                  },
+                  "backgroundColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  },
+                  "textSize": 9,
+                  "fontFamily": "Cera Pro Macmillan",
+                  "transparency": 0,
+                  "border": true,
+                  "borderColor": {
+                     "solid": {
+                        "color": "#C8C8C8"
+                     }
+                  },
+                  "inputBoxColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  }
+               }
+            ]
+         }
+      },
+      "page": {
+         "*": {
+            "settings": [{
+               "allowUseAsTooltip": false,
+               "allowQnA": false
+            }],
+            "background": [{
+               "color": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0,
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               }
+            }],
+            "displayArea": [{
+               "type": "16:9",
+               "height": 720,
+               "width": 1280,
+               "verticalAlignment": "Top"
+            }],
+            "outspace": [{
+               "color": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0,
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               }
+            }],
+            "outspacePane": [{
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0,
+               "foregroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleSize": 12,
+               "headerSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "border": true,
+               "borderColor": {
+                  "solid": {
+                     "color": "#B3B0AD"
+                  }
+               },
+               "width": 200,
+               "checkboxAndApplyColor": {
+                  "solid": {
+                     "color": "#F2C811"
+                  }
+               },
+               "searchTextSize": 10,
+               "inputBoxColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               }
+            }],
+            "filterCard": [{
+                  "$id": "Available",
+                  "foregroundColor": {
+                     "solid": {
+                        "color": "#252423"
+                     }
+                  },
+                  "backgroundColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  },
+                  "textSize": 9,
+                  "fontFamily": "Cera Pro Macmillan",
+                  "transparency": 0,
+                  "border": true,
+                  "borderColor": {
+                     "solid": {
+                        "color": "#C8C8C8"
+                     }
+                  },
+                  "inputBoxColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  }
+               },
+               {
+                  "$id": "Applied",
+                  "foregroundColor": {
+                     "solid": {
+                        "color": "#252423"
+                     }
+                  },
+                  "backgroundColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  },
+                  "textSize": 9,
+                  "fontFamily": "Cera Pro Macmillan",
+                  "transparency": 0,
+                  "border": true,
+                  "borderColor": {
+                     "solid": {
+                        "color": "#C8C8C8"
+                     }
+                  },
+                  "inputBoxColor": {
+                     "solid": {
+                        "color": "#FFFFFF"
+                     }
+                  }
+               }
+            ]
+         }
+      },
+      "lineChart": {
+         "*": {
+            "general": [{
+               "responsive": false,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "legendMarkerRendering": "lineOnly",
+               "matchLineColor": true,
+               "circleDefaultIcon": true,
+               "show": true,
+               "position": "TopCenter",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Categorical",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": true,
+               "showAxisTitle": false,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "start": 0,
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": false,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#c8c6c4"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "y2Axis": [{
+               "show": false,
+               "secScaleType": "Linear",
+               "secLabelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "secFontSize": 9,
+               "secFontFamily": "Cera Pro Macmillan",
+               "secBold": false,
+               "secItalic": false,
+               "secUnderline": false,
+               "secLabelDisplayUnits": 0,
+               "secLabelPrecision": 0,
+               "secShowAxisTitle": false,
+               "secTitleStyle": "showTitleOnly",
+               "secTitleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "secTitleFontSize": 12,
+               "secTitleFontFamily": "Cera Pro Macmillan",
+               "secTitleBold": false,
+               "secTitleItalic": false,
+               "secTitleUnderline": false
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003d4d"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#003d4d"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": true,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "seriesLabels": [{
+               "show": false,
+               "seriesPosition": "Right",
+               "seriesFontFamily": "Cera Pro Macmillan",
+               "textSize": 9,
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "seriesColor": {
+                  "solid": {
+                     "color": "#777777"
+                  }
+               },
+               "seriesWordWrap": false,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               },
+               "backgroundTransparency": 0
+            }],
+            "lineStyles": [{
+               "strokeWidth": 3,
+               "strokeLineJoin": "round",
+               "lineStyle": "solid",
+               "showMarker": false,
+               "markerShape": "circle",
+               "markerSize": 5,
+               "markerColor": {
+                  "solid": {
+                     "color": "#00838A"
+                  }
+               },
+               "stepped": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e56"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "background": [{
+               "show": true,
+               "color": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "transparency": 0
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "card": {
+         "*": {
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 30,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true
+            }],
+            "categoryLabels": [{
+               "show": true,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "wordWrap": [{
+               "show": true
+            }],
+            "title": [{
+               "show": false,
+               "titleWrap": true,
+               "background": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "alignment": "center",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "barChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": false,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "gridlineShow": false,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "totals": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backgroundTransparency": 90,
+               "showPositiveAndNegative": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "slicer": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false,
+               "outlineColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "outlineWeight": 1,
+               "orientation": 0
+            }],
+            "selection": [{
+               "selectAllCheckboxEnabled": false,
+               "singleSelect": true,
+               "strictSingleSelect": false
+            }],
+            "header": [{
+               "show": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "outline": "None",
+               "outlineStyle": 0,
+               "textSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "items": [{
+               "fontColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "padding": 0,
+               "outline": "None",
+               "outlineStyle": 0,
+               "textSize": 10,
+               "fontFamily": "Cera Pro Macmillan, Calibri",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "title": [{
+               "show": false,
+               "titleWrap": true,
+               "background": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "alignment": "left",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }]
+         }
+      },
+      "tableEx": {
+         "*": {
+            "stylePreset": [{
+               "name": "Default"
+            }],
+            "grid": [{
+               "gridVertical": false,
+               "gridVerticalColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridVerticalWeight": 1,
+               "gridHorizontal": false,
+               "gridHorizontalColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridHorizontalWeight": 1,
+               "rowPadding": 1,
+               "outlineColor": {
+                  "solid": {
+                     "color": "#426871"
+                  }
+               },
+               "outlineWeight": 1,
+               "outlineStyle": 0,
+               "textSize": 10,
+               "imageHeight": 75
+            }],
+            "columnHeaders": [{
+               "fontColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "outline": "BottomOnly",
+               "autoSizeColumnWidth": true,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "fontSize": 10,
+               "alignment": "Auto",
+               "wordWrap": true
+            }],
+            "values": [{
+               "fontColorPrimary": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backColorPrimary": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "fontColorSecondary": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backColorSecondary": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "outline": "None",
+               "urlIcon": false,
+               "wordWrap": true,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "fontSize": 10
+            }],
+            "total": [{
+               "fontColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "backColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "fontSize": 12
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "columnChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": false,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "totals": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backgroundTransparency": 90,
+               "showPositiveAndNegative": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "clusteredBarChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": false,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "gridlineShow": false,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "clusteredColumnChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": false,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "hundredPercentStackedBarChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": false,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "gridlineShow": false,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "hundredPercentStackedColumnChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": false,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "areaChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "legendMarkerRendering": "markerOnly",
+               "matchLineColor": true,
+               "circleDefaultIcon": true,
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": true,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "y2Axis": [{
+               "show": false,
+               "secScaleType": "Linear",
+               "secLabelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "secFontSize": 9,
+               "secFontFamily": "Cera Pro Macmillan",
+               "secBold": false,
+               "secItalic": false,
+               "secUnderline": false,
+               "secLabelDisplayUnits": 0,
+               "secLabelPrecision": 0,
+               "secShowAxisTitle": false,
+               "secTitleStyle": "showTitleOnly",
+               "secTitleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "secTitleFontSize": 12,
+               "secTitleFontFamily": "Cera Pro Macmillan",
+               "secTitleBold": false,
+               "secTitleItalic": false,
+               "secTitleUnderline": false
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "transparency": 60,
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "seriesLabels": [{
+               "show": false,
+               "seriesPosition": "Right",
+               "seriesFontFamily": "Cera Pro Macmillan",
+               "textSize": 9,
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "seriesColor": {
+                  "solid": {
+                     "color": "#777777"
+                  }
+               },
+               "seriesWordWrap": false,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               },
+               "backgroundTransparency": 0
+            }],
+            "lineStyles": [{
+               "strokeWidth": 3,
+               "strokeLineJoin": "round",
+               "lineStyle": "solid",
+               "showMarker": false,
+               "markerShape": "circle",
+               "markerSize": 5,
+               "markerColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "stepped": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "stackedAreaChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "legendMarkerRendering": "markerOnly",
+               "matchLineColor": true,
+               "circleDefaultIcon": true,
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "concatenateLabels": true,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "seriesLabels": [{
+               "show": false,
+               "seriesPosition": "Right",
+               "seriesFontFamily": "Cera Pro Macmillan",
+               "textSize": 9,
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "seriesColor": {
+                  "solid": {
+                     "color": "#777777"
+                  }
+               },
+               "seriesWordWrap": false,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               },
+               "backgroundTransparency": 0
+            }],
+            "totals": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "lineStyles": [{
+               "strokeWidth": 3,
+               "strokeLineJoin": "round",
+               "lineStyle": "solid",
+               "showMarker": false,
+               "markerShape": "circle",
+               "markerSize": 5,
+               "markerColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "stepped": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "lineStackedColumnComboChart": {
+         "*": {
+            "general": [{
+               "responsive": false,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "legendMarkerRendering": "markerOnly",
+               "matchLineColor": true,
+               "circleDefaultIcon": true,
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": true,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "seriesLabels": [{
+               "show": false,
+               "seriesPosition": "Right",
+               "seriesFontFamily": "Cera Pro Macmillan",
+               "textSize": 9,
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "seriesColor": {
+                  "solid": {
+                     "color": "#777777"
+                  }
+               },
+               "seriesWordWrap": false,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               },
+               "backgroundTransparency": 0
+            }],
+            "totals": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backgroundTransparency": 90,
+               "showPositiveAndNegative": false
+            }],
+            "lineStyles": [{
+               "shadeArea": false,
+               "strokeWidth": 3,
+               "strokeLineJoin": "round",
+               "lineStyle": "solid",
+               "showMarker": false,
+               "markerShape": "circle",
+               "markerSize": 5,
+               "markerColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "stepped": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "lineClusteredColumnComboChart": {
+         "*": {
+            "general": [{
+               "responsive": false,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "legendMarkerRendering": "markerOnly",
+               "matchLineColor": true,
+               "circleDefaultIcon": true,
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "concatenateLabels": true,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preserveWhitespace": true,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "seriesLabels": [{
+               "show": false,
+               "seriesPosition": "Right",
+               "seriesFontFamily": "Cera Pro Macmillan",
+               "textSize": 9,
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "seriesColor": {
+                  "solid": {
+                     "color": "#777777"
+                  }
+               },
+               "seriesWordWrap": false,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               },
+               "backgroundTransparency": 0
+            }],
+            "lineStyles": [{
+               "shadeArea": false,
+               "strokeWidth": 3,
+               "strokeLineJoin": "round",
+               "lineStyle": "solid",
+               "showMarker": false,
+               "markerShape": "circle",
+               "markerSize": 5,
+               "markerColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "stepped": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "ribbonChart": {
+         "*": {
+            "general": [{
+               "responsive": false,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "concatenateLabels": true,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "labelOverflow": false,
+               "labelDensity": 50,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "ribbonChart": [{
+               "seriesGapRatio": 0,
+               "colorBands": true,
+               "bandsTransparency": 30,
+               "showBorder": false
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "waterfallChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "preferredCategoryWidth": 20,
+               "maxMarginFactor": 25,
+               "innerPadding": 20,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "show": false,
+               "labelOrientation": 1,
+               "labelPosition": "Auto",
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#FFFFFF"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 20
+            }],
+            "sentimentColors": [{
+               "increaseFill": {
+                  "solid": {
+                     "color": "#1AAB40"
+                  }
+               },
+               "decreaseFill": {
+                  "solid": {
+                     "color": "#D64554"
+                  }
+               },
+               "totalFill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               },
+               "otherFill": {
+                  "solid": {
+                     "color": "#000000"
+                  }
+               }
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "funnel": {
+         "*": {
+            "categoryAxis": [{
+               "show": true,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "labels": [{
+               "show": true,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "funnelLabelStyle": "Data",
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "percentageLabelPrecision": 0,
+               "labelPosition": "InsideCenter",
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan"
+            }],
+            "percentBarLabel": [{
+               "show": true,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "scatterChart": {
+         "*": {
+            "general": [{
+               "responsive": true,
+               "keepLayerOrder": false
+            }],
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "categoryAxis": [{
+               "position": "Left",
+               "show": true,
+               "axisType": "Scalar",
+               "axisScale": "linear",
+               "invertAxis": false,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineShow": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "valueAxis": [{
+               "position": "Left",
+               "gridlineShow": true,
+               "show": true,
+               "axisScale": "linear",
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 10,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "switchAxisPosition": false,
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "showAxisTitle": true,
+               "axisStyle": "showTitleOnly",
+               "titleColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "titleFontSize": 12,
+               "titleFontFamily": "Cera Pro Macmillan",
+               "titleBold": false,
+               "titleItalic": false,
+               "titleUnderline": false,
+               "gridlineColor": {
+                  "solid": {
+                     "color": "#F3F2F1"
+                  }
+               },
+               "gridlineThickness": 1,
+               "gridlineStyle": "dotted"
+            }],
+            "zoom": [{
+               "show": false,
+               "showOnCategoryAxis": true,
+               "showOnValueAxis": true,
+               "showLabels": false,
+               "showTooltip": false
+            }],
+            "dataPoint": [{
+               "showAllDataPoints": false,
+               "fill": {
+                  "solid": {
+                     "color": "#003D4D"
+                  }
+               }
+            }],
+            "bubbles": [{
+               "markerSize": 3,
+               "markerShape": "circle",
+               "customizeSeries": false
+            }],
+            "plotArea": [{
+               "image": {
+                  "name": "",
+                  "url": "",
+                  "scaling": "Normal"
+               },
+               "transparency": 0
+            }],
+            "categoryLabels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "show": false,
+               "enableBackground": false,
+               "backgroundColor": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "backgroundTransparency": 90
+            }],
+            "fillPoint": [{
+               "show": false,
+               "style": "Fill only"
+            }],
+            "colorByCategory": [{
+               "show": false
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "pieChart": {
+         "*": {
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "labels": [{
+               "show": true,
+               "labelStyle": "Data value, percent of total",
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 2,
+               "percentageLabelPrecision": 2,
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "position": "outside",
+               "overflow": true,
+               "background": "auto"
+            }],
+            "slices": [{
+               "startAngle": 0
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "donutChart": {
+         "*": {
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "labels": [{
+               "show": true,
+               "labelStyle": "Data value, percent of total",
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 2,
+               "percentageLabelPrecision": 2,
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "position": "outside",
+               "overflow": true,
+               "background": "auto"
+            }],
+            "slices": [{
+               "innerRadiusRatio": 10
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      },
+      "treemap": {
+         "*": {
+            "legend": [{
+               "show": true,
+               "position": "Top",
+               "showTitle": true,
+               "labelColor": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontFamily": "Cera Pro Macmillan",
+               "fontSize": 10,
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "labels": [{
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "labelDisplayUnits": 0,
+               "labelPrecision": 0,
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "show": false
+            }],
+            "categoryLabels": [{
+               "show": true,
+               "color": {
+                  "solid": {
+                     "color": "#605E5C"
+                  }
+               },
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "title": [{
+               "show": true,
+               "titleWrap": true,
+               "fontColor": {
+                  "solid": {
+                     "color": "#605e5c"
+                  }
+               },
+               "background": {
+                  "solid": {
+                     "color": "#ffffff"
+                  }
+               },
+               "alignment": "center",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false
+            }],
+            "lockAspect": [{
+               "show": false
+            }],
+            "dropShadow": [{
+               "show": false,
+               "color": {
+                  "solid": {
+                     "color": "#252423"
+                  }
+               },
+               "position": "Outer",
+               "preset": "BottomRight",
+               "shadowSpread": 3,
+               "shadowBlur": 10,
+               "angle": 45,
+               "shadowDistance": 10,
+               "transparency": 70
+            }],
+            "visualTooltip": [{
+               "show": false,
+               "type": "Canvas",
+               "fontSize": 12,
+               "fontFamily": "Cera Pro Macmillan",
+               "bold": false,
+               "italic": false,
+               "underline": false,
+               "transparency": 5,
+               "page": "Auto"
+            }],
+            "visualHeader": [{
+               "show": true,
+               "showVisualInformationButton": true,
+               "showVisualWarningButton": true,
+               "showVisualErrorButton": true,
+               "showDrillRoleSelector": true,
+               "showDrillUpButton": true,
+               "showDrillToggleButton": true,
+               "showDrillDownLevelButton": true,
+               "showDrillDownExpandButton": true,
+               "showPinButton": true,
+               "showFocusModeButton": true,
+               "showFilterRestatementButton": true,
+               "showSeeDataLayoutToggleButton": true,
+               "showOptionsMenu": true,
+               "showTooltipButton": false
+            }],
+            "visualHeaderTooltip": [{
+               "titleFontColor": {
+                  "solid": {
+                     "color": "#C8C8C8"
+                  }
+               },
+               "fontSize": 9,
+               "fontFamily": "Cera Pro Macmillan",
+               "background": {
+                  "solid": {
+                     "color": "#333333"
+                  }
+               },
+               "transparency": 5
+            }]
+         }
+      }
+   }
+}
