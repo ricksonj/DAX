@@ -1,0 +1,85 @@
+-----------------------------------------
+_CT_KPITable = 
+VAR _LYLast = DATE(2023,12,1)
+VAR _YLast = DATE(2024,12,1)
+VAR _Month = DATE(2024,2,1) //EDATE(TODAY(),-2)+1
+VAR _LM = DATE(2024,1,1)
+RETURN
+UNION(
+ROW("No",1,"KPI", "Uptake PLWC","Area", "Support PLWC", "Owner", "SM/RH", "Freq", "M"
+    , "Last Update", MAX(_CT_UTPLWC_Y[Month_StartDate])
+    , "PY Act", ROUND( CALCULATE( [UT_Calc_PLWC_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_LYLast )), -2)
+    , "TY Tgt", ROUND( CALCULATE( [UT_CalcTgt_PLWC_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_YLast) ),-2)
+    , "TY YTD Act", ROUND( CALCULATE( [UT_Calc_PLWC_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD Tgt", ROUND( CALCULATE( [UT_CalcTgt_PLWC_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD vsTgt", FORMAT( CALCULATE( DIVIDE( [UT_Calc_PLWC_Y]-[UT_CalcTgt_PLWC_Y],[UT_CalcTgt_PLWC_Y])
+                                , FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),"0.00%")
+    )
+,
+ROW("No",2,"KPI", "Uptake PLWCAD","Area", "Support PLWC", "Owner", "SM/RH", "Freq", "M"
+    , "Last Update", MAX(_CT_UTPLWCAD_Y[Month_StartDate])
+    , "PY Act", FORMAT(CALCULATE([UT_Calc_PLWCAD%_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_LYLast )),"0.0%")
+    , "TY Tgt", FORMAT(CALCULATE([UT_CalcTgt_PLWCAD%_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_YLast )),"0.0%")
+    , "TY YTD Act", FORMAT(CALCULATE([UT_Calc_PLWCAD%_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month)),"0.0%")
+    , "TY YTD Tgt", FORMAT(CALCULATE([UT_CalcTgt_PLWCAD%_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month)),"0.0%")
+    , "TY YTD vsTgt", FORMAT(CALCULATE(DIVIDE( [UT_Calc_PLWCAD%_Y]-[UT_CalcTgt_PLWCAD%_Y],[UT_CalcTgt_PLWCAD%_Y]), FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month)),"0.00%")
+    )
+,
+ROW("No",3,"KPI", "Positive Impact","Area", "Support PLWC", "Owner", "CR", "Freq", "M"
+    , "Last Update", MAX(xCrunch[Date])
+    , "PY Act", "-" --FORMAT(CALCULATE([UT_Calc_PLWCAD%_Y], FILTER( zzCalendar, zzCalendar[Month_StartDate]=DATE(2023,12,1))),"0%")
+    , "TY Tgt", FORMAT(CALCULATE([BH_PosImp_CalcTgt], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_YLast)),"0%")
+    , "TY YTD Act", FORMAT( CALCULATE([CRU_.CalcM], xCrunch[Code]="PI" && xCrunch[Version]="M", FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month )),"0%")
+    , "TY YTD Tgt", FORMAT(CALCULATE([BH_PosImp_CalcTgt], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month )),"0%")
+    , "TY YTD vsTgt", FORMAT( DIVIDE( CALCULATE([CRU_.CalcM], xCrunch[Code]="PI" && xCrunch[Version]="M", FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month)),CALCULATE([BH_PosImp_CalcTgt]
+                                    , FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ))-1 ,"0.00%")
+    )
+,
+ROW("No",4,"KPI", "eHNA Locked Careplans","Area", "Support PLWC", "Owner", "SM", "Freq", "M-1"
+    , "Last Update", MAX(eHNA_Careplans[DateSetUp])
+    , "PY Act", ROUND(CALCULATE([EHNA_Calc_Locked], FILTER( zzCalendar, zzCalendar[Year]=2023)),-2)
+    , "TY Tgt", ROUND(CALCULATE([EHNA_Calc_Tgt], FILTER( zzCalendar, zzCalendar[Year]=2024)),-2)
+    , "TY YTD Act", ROUND(CALCULATE([EHNA_Calc_Locked], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_LM) ),-2)
+    , "TY YTD Tgt", ROUND(CALCULATE([EHNA_Calc_Tgt], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_LM)),-2)
+    , "TY YTD vsTgt", FORMAT(CALCULATE(DIVIDE( [EHNA_Calc_Locked]-[EHNA_Calc_Tgt],[EHNA_Calc_Tgt]), FILTER( zzCalendar, zzCalendar[Month_StartDate]=_LM)),"0.00%")
+    )
+,ROW("No",7.1,"KPI", "Direct Financial Gains","Area", "Support PLWC", "Owner", "SM/RH", "Freq", "M"
+    , "Last Update", _Month --MAX(DGa_CRM_Gains[gain_date])
+    , "PY Act", ROUND( CALCULATE( [DIR_Calc_Gains_ExcGrants£], FILTER( zzCalendar, zzCalendar[Year]=2023 )), -2)
+    , "TY Tgt", ROUND( CALCULATE( [DIR_Calc_Tgt£], FILTER( zzCalendar, zzCalendar[Year]=2024 ) ),-2)
+    , "TY YTD Act", ROUND( CALCULATE( [DIR_Calc_Gains_ExcGrants£], FILTER( zzCalendar, zzCalendar[Year]=2024 && zzCalendar[Month_StartDate]<=_Month) ),-2)
+    , "TY YTD Tgt", ROUND( CALCULATE( TOTALYTD([DIR_Calc_Tgt£],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD vsTgt", FORMAT( CALCULATE( DIVIDE( TOTALYTD([DIR_Calc_Gains_ExcGrants£],zzCalendar[_Date])
+                                                ,TOTALYTD([DIR_Calc_Tgt£],zzCalendar[_Date]))-1
+                                , FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),"0.00%")
+    )
+,ROW("No",7.2,"KPI", "Direct Financial Reach","Area", "Support PLWC", "Owner", "SM/RH", "Freq", "M"
+    , "Last Update", _Month --MAX(DGa_CRM_Gains[gain_date])
+    , "PY Act", ROUND( CALCULATE( TOTALYTD([DIR_Calc_TotalU],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Month_StartDate]= _LYLast ) ),-2)
+    , "TY Tgt", ROUND( CALCULATE( [DIR_Calc_TgtU_YTD], FILTER( zzCalendar, zzCalendar[Month_StartDate]= _YLast ) ),-2)
+    , "TY YTD Act", ROUND( CALCULATE( TOTALYTD([DIR_Calc_TotalU],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Year]=2024 && zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD Tgt", ROUND( CALCULATE( [DIR_Calc_TgtU_YTD], FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD vsTgt", FORMAT( CALCULATE( DIVIDE( TOTALYTD([DIR_Calc_TotalU],zzCalendar[_Date])
+                                                ,[DIR_Calc_TgtU_YTD])-1
+                                , FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),"0.00%")
+    )
+,ROW("No",8.1,"KPI", "Indirect Financial Gains","Area", "Support PLWC", "Owner", "SM/RH", "Freq", "Q"
+    , "Last Update", [_LatestIndirectData_DatetoUse] --MAX(DGa_CRM_Gains[gain_date])
+    , "PY Act", ROUND( CALCULATE( TOTALYTD([IND_Calc_£],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Month_StartDate]= _LYLast ) ),-2)
+    , "TY Tgt", ROUND( CALCULATE( TOTALYTD([IND_Calc_Tgt£],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Month_StartDate]= _YLast ) ),-2)
+    , "TY YTD Act", ROUND( CALCULATE( TOTALYTD([IND_Calc_£],zzCalendar[Quarter_EndDate]), FILTER( zzCalendar, zzCalendar[Year]=2024 && zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD Tgt", ROUND( CALCULATE( TOTALYTD([IND_Calc_Tgt£],zzCalendar[Quarter_EndDate]), FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD vsTgt", FORMAT( CALCULATE( DIVIDE( (TOTALYTD( [IND_Calc_£],zzCalendar[Quarter_EndDate])-TOTALYTD([IND_Calc_Tgt£],zzCalendar[Quarter_EndDate]))
+                                                ,TOTALYTD([IND_Calc_Tgt£],zzCalendar[Quarter_EndDate]) )
+                                , FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),"0.00%")
+    )
+,ROW("No",8.2,"KPI", "Indirect Financial Reach","Area", "Support PLWC", "Owner", "SM/RH", "Freq", "Q"
+    , "Last Update", [_LatestIndirectData_DatetoUse] --MAX(DGa_CRM_Gains[gain_date])
+    , "PY Act", ROUND( CALCULATE( TOTALYTD([IND_Calc_U_PLWC],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Month_StartDate]= _LYLast ) ),-2)
+    , "TY Tgt", ROUND( CALCULATE( TOTALYTD([IND_Calc_TgtU],zzCalendar[_Date]), FILTER( zzCalendar, zzCalendar[Month_StartDate]= _YLast ) ),-2)
+    , "TY YTD Act", ROUND( CALCULATE( TOTALYTD([IND_Calc_U_PLWC],zzCalendar[Quarter_EndDate]), FILTER( zzCalendar, zzCalendar[Year]=2024 && zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD Tgt", ROUND( CALCULATE( TOTALYTD([IND_Calc_TgtU],zzCalendar[Quarter_EndDate]), FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),-2)
+    , "TY YTD vsTgt", FORMAT( CALCULATE( DIVIDE( (TOTALYTD( [IND_Calc_U_PLWC],zzCalendar[Quarter_EndDate])-TOTALYTD([IND_Calc_TgtU],zzCalendar[Quarter_EndDate]))
+                                                ,TOTALYTD([IND_Calc_TgtU],zzCalendar[Quarter_EndDate]) )
+                                , FILTER( zzCalendar, zzCalendar[Month_StartDate]=_Month) ),"0.00%")
+    ))
