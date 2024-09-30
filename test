@@ -1,2 +1,13 @@
 //-------------------------------------
-VAR _Test = 
+zzEmployee_BucketsTEST = 
+VAR _Selection = SELECTEDVALUE( zLookup_EmpBkt[Bucket])
+VAR _0 = DISTINCT(UNION( VALUES( '1MileageReportRawData'[Employee ID]), SELECTCOLUMNS(SUMMARIZE('2CO2DataExtractRawData','2CO2DataExtractRawData'[CR04 Value]),"Employee ID",[CR04 Value])))
+VAR _01 = ADDCOLUMNS( _0, "Mileage_Em", SUMX( FILTER('1MileageReportRawData','1MileageReportRawData'[Employee ID]=EARLIER([Employee ID])), [Mileage_EmissionsCalc]))
+VAR _02 = ADDCOLUMNS( _01, "Travel_Em", SUMX( FILTER('2CO2DataExtractRawData','2CO2DataExtractRawData'[CR04 Value]=EARLIER([Employee ID])), [Travel_Emissions_WithRF]))
+
+VAR _9 = FILTER( ADDCOLUMNS( _02, "EmissionsTotal", [Mileage_Em] + [Travel_Em]), [Employee ID] <> BLANK() )
+VAR _99 =  ADDCOLUMNS(
+            ADDCOLUMNS( _9, "Rankk", RANKX( _9, [EmissionsTotal],,DESC,Dense))
+            , "RankkBucket"
+            , SWITCH( TRUE(), [Rankk] <= 20,"1-20", [Rankk] <= 50,"21-50", [Rankk] <= 100, "51-100", [Rankk] <= 250,"101-250", [Rankk] <= 500,"251-500","501-"))
+RETURN SUMX( FILTER(_99, [RankkBucket] = _Selection), [EmissionsTotal] )
